@@ -7,3 +7,59 @@
     --Bege-claro: #F6E6D5;
 
 }
+
+#inicio{
+
+    background-image: url('/assets/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+
+    .cnt1{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+        padding-top: 40px;
+
+    }
+
+    .textoEsq{
+
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: var(--Dourado);
+        align-self: center;
+        text-align: left;
+   
+    }
+
+    .cnt1 img{
+
+        width: 40vw;
+        align-self: flex-end;
+
+    }
+
+    .tituloEsq{
+
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--Dourado);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+
+    }
+
+
+    .risCopo{
+
+        width: 20vw !important;
+        align-self: center !important;
+
+    }
+
+}
