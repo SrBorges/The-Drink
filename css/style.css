@@ -57,9 +57,64 @@
 
     .risCopo{
 
-        width: 20vw !important;
+        width: 15vw !important;
         align-self: center !important;
 
     }
 
+}
+
+#drinks{
+
+
+    background-image: url('/assets/2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    .cnt2{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 20px;
+        
+    }
+
+    .cnt2__titulo{
+
+        font-size: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: var(--Laranja-queimado);
+        text-transform: uppercase;
+        text-align: center;
+        grid-column: 1 / -1;
+
+    }
+
+    .drinkImg{
+
+        width: 20vw;
+
+    }
+    
+    .boxDrink{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .textoDrink{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        color: var(--Marrom-escuro);
+        font-weight: 600;
+
+    }
+
+ 
 }
