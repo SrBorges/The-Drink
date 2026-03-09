@@ -71,14 +71,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 20px;
 
     .cnt2{
 
-    
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 20px;
         
     }
 
@@ -89,23 +88,33 @@
         font-weight: 600;
         color: var(--Laranja-queimado);
         text-transform: uppercase;
+        text-align: center;
+        grid-column: 1 / -1;
 
     }
 
     .drinkImg{
 
-        width: 15vw;
+        width: 20vw;
 
     }
     
     .boxDrink{
 
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+    }
 
+    .textoDrink{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        color: var(--Marrom-escuro);
+        font-weight: 600;
 
     }
 
+ 
 }
