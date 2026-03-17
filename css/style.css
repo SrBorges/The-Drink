@@ -118,3 +118,131 @@
 
  
 }
+
+#preparo{
+
+background-image: url('/assets/4.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 70vh;
+
+
+
+.cnt3{
+
+    padding: 20px;
+    gap: 40px;
+    display: flex;
+    
+}
+
+.cubalibre{
+
+    border: 2px solid var(--Bege-claro);
+    background-color: var(--Laranja-queimado);
+    padding: 15px;
+
+}
+
+.cubalibre ol li{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: var(--Dourado);
+    font-weight: 600;
+
+}
+
+.cubalibre__texto{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.70rem;
+    font-weight: 600;
+    color: var(--Dourado);
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+.caipirinha{
+
+    border: 2px solid var(--Bege-claro);
+    background-color: var(--Laranja-queimado);
+    padding: 15px;
+
+}
+
+.caipirinha ol li{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Dourado);
+    font-weight: 600;
+
+}
+
+.caipirinha__texto{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.80rem;
+    text-transform: uppercase;
+    color: var(--Dourado);
+    font-weight: 600;
+    text-align: justify;
+
+}
+
+.bee{
+
+    padding: 15px;
+    border: 2px solid var(--Bege-claro);
+    background-color: var(--Laranja-queimado);
+
+}
+
+
+.bee ol li{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: var(--Dourado);
+    font-weight: 600;
+
+}
+
+.bee_texto{
+
+    font-size: 0.80rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--Dourado);
+    font-weight: 600;
+    padding: 15px;
+
+}
+
+.whisky{
+
+    border: 2px solid var(--Bege-claro);
+    background-color: var(--Laranja-queimado);
+
+}
+
+.whisky ol li{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Dourado);
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.whisky__texto{
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--Dourado);
+    font-weight: 600;
+}
+
+}
