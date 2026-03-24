@@ -157,6 +157,7 @@ width: 100%;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+   
 
 }
 
@@ -191,7 +192,7 @@ width: 100%;
     border-radius: 12px;
     background-color: var(--Laranja-queimado);
     padding: 15px;
-    flex: 1 1 250px;
+    flex: 0 1 250px;
 
 }
 
@@ -211,7 +212,7 @@ width: 100%;
     font-weight: 600;
     color: var(--Dourado);
     text-transform: uppercase;
-    font-size: 0.80rem;
+    font-size: 0.90rem;
     text-align: center;
 
 }
@@ -223,7 +224,7 @@ width: 100%;
     background-color: var(--Laranja-queimado);
     border-radius: 12px;
     padding: 15px;
-    flex: 1 1 250px;
+    flex: 0 0 250px;
 
 
 }
@@ -242,6 +243,7 @@ width: 100%;
     text-transform: uppercase;
     color: var(--Dourado);
     font-weight: 600;
+    font-size: 0.90rem;
     
 
 }
@@ -251,7 +253,7 @@ width: 100%;
     padding: 15px;
     border: 2px solid var(--Bege-claro);
     background-color: var(--Laranja-queimado);
-    flex: 1 1 250px;
+    flex: 0 0 250px;
     border-radius: 12px;
 
 
@@ -267,7 +269,47 @@ width: 100%;
 
 }
 
+
+
 .bee_texto{
+
+    font-size: 0.90rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: var(--Dourado);
+    font-weight: 600;
+
+}
+
+.whisky{
+
+    padding: 15px;
+    border: 2px solid var(--Bege-claro);
+    background-color: var(--Laranja-queimado);
+    flex: 0 0 250px;
+    border-radius: 12px;
+    font-size: 0.90rem;
+
+
+}
+
+.whisky h2{
+
+    color: var(--Dourado);
+    text-align: center;
+
+}
+
+.whisky ol li{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: var(--Dourado);
+    font-weight: 600;
+
+}
+
+.whisky__texto{
 
     font-size: 0.80rem;
     font-family: Arial, Helvetica, sans-serif;
