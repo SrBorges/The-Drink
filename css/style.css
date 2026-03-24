@@ -281,3 +281,52 @@ width: 100%;
 
 
 }
+
+#somos{
+
+    background-image: url('/assets/5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    .cnt4{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 20px;
+
+    }
+
+
+
+
+    .Qsomos{
+
+       display: flex;
+    
+    }
+
+    .Qsomos img{
+
+        width: 25vw;
+    }
+
+    .textoBase{
+
+      display: flex;
+      align-self: center;
+
+    }
+
+    .textoBase__texto{
+
+        font-size: 1.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        color: var(--Dourado);
+        text-transform: uppercase;
+
+    }
+
+}
