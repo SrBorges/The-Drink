@@ -10,7 +10,7 @@
 
 #inicio{
 
-    background-image: url('/assets/1.jpg');
+    background-image: url('/assets/1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -67,7 +67,7 @@
 #drinks{
 
 
-    background-image: url('/assets/2.jpg');
+    background-image: url('/assets/2.webp');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -121,7 +121,7 @@
 
 #preparo{
 
-background-image: url('/assets/4.jpg');
+background-image: url('/assets/4.webp');
 background-repeat: no-repeat;
 background-size: cover;
 width: 100%;
@@ -326,7 +326,7 @@ width: 100%;
 
 #somos{
 
-    background-image: url('/assets/5.jpg');
+    background-image: url('/assets/5.webp ');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
